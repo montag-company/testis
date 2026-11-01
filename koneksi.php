@@ -1,8 +1,9 @@
 <?php
-// Konfigurasi koneksi PostgreSQL (Contoh untuk Neon)
-$dsn = "pgsql:host=ep-muddy-mouse-b40b93ss-pooler.c-6.us-east-2.aws.neon.tech;port=5432;dbname=neondb;sslmode=require";
-$username = "neondb_owner"; // Ganti dengan username Anda
-$password = "npg_6mXwLiT5SpBa"; // Ganti dengan password Anda
+// Konfigurasi koneksi PostgreSQL (Neon)
+$host = "ep-muddy-mouse-b40b93ss-pooler.c-6.us-east-2.aws.neon.tech";
+$dbname = "neondb";
+$username = "neondb_owner";
+$password = "npg_6mXwLiT5SpBa";
 
 $dsn = "pgsql:host=$host;port=5432;dbname=$dbname;sslmode=require";
 
